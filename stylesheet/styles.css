@@ -19,6 +19,17 @@
 
 }
 
+.box {
+    border: #3882F6;
+    border-width: 3px;
+    border-radius: 100px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 section#image {
     background-color: gray;
     padding: 5%;
@@ -60,4 +71,11 @@ h4 {
     font-size: 16px;
     color: #F9FAF8;
     font-weight: 100;
+}
+
+h5 {
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
 }
